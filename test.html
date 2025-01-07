@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeritaKu - Portal Berita Terkini</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">About<span>NEWS</span></a>
+            <div class="nav-links">
+                <a href="#">Beranda</a>
+                <a href="test2.html">Politik</a>
+                <a href="test3.html">Ekonomi</a>
+                <a href="test4.html">Olahraga</a>
+                <a href="test5.html">Teknologi</a>
+                <a href="test6.html">Gaya Hidup</a>
+                <a href="test7.html">Hiburan</a>
+            </div>
+        </nav>
+    </header>
+
+    <style>
+        .product-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            background: #f5f5f5;
+            background-color:#666;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product-details {
+            padding: 1.5rem;
+        }
+
+        .product-details h3 {
+            margin-bottom: 0.5rem;
+            color: #27345d;
+        }
+
+        .price {
+            font-size: 1.25rem;
+            color: #2c3e50;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .description {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+
+        .buy-button {
+            background: #2c3e50;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .buy-button:hover {
+            background: #2c3e50;
+        }
+    </style>
+
+    <main>
+        <h2 class="section-title">Berita Terpopuler</h2>
+        <section class="featured-news">
+                <article class="news-card">
+                    <div class="news-image-container">
+                        <span class="news-category">Politik</span>
+                            <img src="content/foto1.jpeg" alt="Card Image">
+                            
+                <div class="news-content">
+                    <div class="news-date">
+                        <i class="far fa-clock"></i> 07 Januari 2025
+                    </div>
+                                <h3 class="news-title">NasDem Beber Alasan Surya Paloh Tak Ikut Pertemuan di Rumah Prabowo</h3>
+                                <p class="news-excerpt">Purwakarta, AboutNews-- Wakil Ketua Umum Partai NasDem Saan Mustopa menegaskan hubungan Ketua Umum Partai NasDem Surya Paloh dengan Presiden Prabowo Subianto tetap hangat, walaupun Surya tidak hadir dalam pertemuan para ketua partai politik di kediaman Prabowo pada Sabtu (28/12).</p>
+                                    <a href="bp1.html"><button a href="#" class="read-more">Baca Selengkapnya</button></a>
+                            </div>
+                        </div>
+            </article>
+            <article class="news-card">
+                <div class="news-image-container">
+                    <img src="tek1.jpeg" alt="Berita Teknologi" class="news-image">
+                    <span class="news-category">Teknologi</span>
+                </div>
+                <div class="news-content">
+                    <div class="news-date">
+                        <i class="far fa-clock"></i> 07 Januari 2025
+                    </div>
+                    <h3 class="news-title">INFOGRAFIS: 5 Sektor Prioritas Strategi AI Nasional</h3>
+                    <p class="news-excerpt">Purwakarta, AboutNews-- TEKNOLOGI1 Purwakarta, AboutNEWS -- Menteri Komunikasi dan Digital (Menkomdigi) Meutya Hafid menyebut pemerintah telah menyusun lima prioritas strategi artificial intelligence (AI) nasional untuk memaksimalkan pemanfaatan teknologi tersebut di sektor penting. Baca artikel AboutNEWS "INFOGRAFIS: 5 Sektor Prioritas Strategi AI Nasional"</p>
+                    <a href="tek1.html"><button a href="#" class="read-more">Baca Selengkapnya</button></a>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-image-container">
+                    <img src="content/olg1.jpeg" alt="Berita Olahraga" class="news-image">
+                    <span class="news-category">Olahraga</span>
+                </div>
+                <div class="news-content">
+                    <div class="news-date">
+                        <i class="far fa-clock"></i> 07 Januari 2025
+                    </div>
+                    <h3 class="news-title">Prestasi Gemilang Atlet Indonesia</h3>
+                    <p class="news-excerpt">Cerita sukses para atlet Indonesia dalam kompetisi internasional terkini...</p>
+                    <a href="olr1.html"><button a href="#" class="read-more">Baca Selengkapnya</button></a>
+                </div>
+            </article>
+        </section>
+
+       
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>AboutNEWS</h3>
+                <p>Portal berita terpercaya yang menyajikan informasi aktual dan berimbang untuk Indonesia.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Kategori</h3>
+                <ul class="footer-links">
+                    <li><a href="test2.html">Politik</a></li>
+                    <li><a href="test3.html">Ekonomi</a></li>
+                    <li><a href="test4.html">Teknologi</a></li>
+                    <li><a href="test5.html">Olahraga</a></li>
+                    <li><a href="test6.html">Gaya hidup</a></li>
+                    <li><a href="test7.html">Hiburan</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Hubungi Kami</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-phone"></i> +62 856 4258 1416</li>
+                    <li><i class="fas fa-envelope"></i> info@AboutNews.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Purwakarta, Indonesia</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 AboutNEWS. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script>
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('id-ID', options);
+    </script>
+</body>
+</html>
+    </style>
+</head>
